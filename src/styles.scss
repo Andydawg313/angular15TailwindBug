@@ -1,5 +1,15 @@
 @use '@angular/material' as mat;
 @include mat.core();
 
-// Tailwind base just needs to be defined
+// Tailwind base just needs to be defined, comment out to "fix" the issue
 @tailwind base;
+
+body {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 30px;
+}
+
+html, body {
+  height: 100%;
+}
